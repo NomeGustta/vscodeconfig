@@ -6,36 +6,40 @@ Este repositório contém minhas configurações do VSCode para melhorar a produ
 
 ## ⚙️ Configurações
 ```json
-"workbench.editor.enablePreview": false, 
-"workbench.colorTheme": "Min Dark", // Extensão Min Theme (Download)
-"workbench.iconTheme": "symbols", // Extensão Symbols (Download)
-"git.confirmSync": false,
-"git.autofetch": true,
-"git.enableSmartCommit": true,
-"workbench.editorAssociations": {
-    "*.exe": "default"
-},
-"editor.fontFamily": "JetBrains Mono", // Fonte JetBrainsMono (Download)
-"editor.fontSize": 14,
-"editor.lineHeight": 1.8, 
-"editor.rulers": [80,120], // Abrir VS Code com tela em branco 
-"editor.fontLigatures": true, // Unir o igual (=) com o (>) (Unir símbolos)
-"workbench.editor.labelFormat": "short",
-"workbench.activityBar.location": "top", 
-"editor.scrollbar.horizontal": "hidden",
-"editor.scrollbar.vertical": "hidden",
-"window.commandCenter": false,
-"workbench.layoutControl.enabled": false,
-"explorer.fileNesting.enabled": true,
-"explorer.fileNesting.patterns": {
-  "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
-  "tailwind.config.*": "tailwind.config*, postcss.config*",
-  ".env.local": ".env*",
-  ".env": ".env*"
-},
-"terminal.integrated.fontSize": 14,
-"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // *Fonte JetBrainsMono Nerd Font (Download)
-"workbench.startupEditor": "none",
+{
+    
+        "workbench.colorTheme": "Min Dark", // Extenção Min Theme
+        "workbench.iconTheme": "symbols", // Extenção Symbols 
+        "git.confirmSync": false,
+        "git.autofetch": true,
+        "git.enableSmartCommit": true,
+        "window.commandCenter": false,
+        "workbench.layoutControl.enabled": false,
+        "explorer.fileNesting.enabled": true,
+        "workbench.editor.enablePreview": false, 
+        "explorer.compactFolders": false, //União de pastas ex: src\assests\...
+        "editor.fontLigatures": true, // Unir o igual (=) com o (>) (Unir simbolos)
+        "workbench.editorAssociations": {"*.exe": "default"},
+        "editor.renderLineHighlight": "gutter",
+        "editor.fontFamily": "JetBrains Mono", // Fonte JetBrainsMono
+        "editor.fontSize": 14,
+        "editor.lineHeight": 1.8, 
+        "editor.rulers": [80,120], 
+        "workbench.editor.labelFormat": "short",
+        "workbench.activityBar.location": "top", 
+        "editor.scrollbar.horizontal": "hidden",
+        "editor.scrollbar.vertical": "hidden",
+        "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+      },
+      "terminal.integrated.fontSize": 14,
+      "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+      "workbench.startupEditor": "none",
+   
+}
 ```
 
 ---
