@@ -22,7 +22,7 @@ Este repositório contém minhas configurações do VSCode para melhorar a produ
         "workbench.editorAssociations": {"*.exe": "default"},
         "editor.renderLineHighlight": "gutter",
         "editor.fontFamily": "JetBrains Mono", // Fonte JetBrainsMono
-        "editor.fontSize": 14,
+        "editor.fontSize": 11,
         "editor.lineHeight": 1.8, 
         "editor.rulers": [80,120], 
         "workbench.editor.labelFormat": "short",
