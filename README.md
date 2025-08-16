@@ -81,7 +81,7 @@ Aqui estão as extensões, fontes e temas que você precisa instalar para usar m
    Este comando abrirá o campo de busca do VSCode.  
 
 3. **Digite no campo:**  
-   `>settings `
+   `>settings >> (Open User Settings)`
    (sem as aspas). Isso abrirá suas configurações no formato JSON.  
 
 4. **Copie e cole o código apresentado acima:**  
